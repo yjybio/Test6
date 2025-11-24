@@ -1,0 +1,14 @@
+Package: SRSTCK
+Title: SRSTCK: An Interpretable Algorithm for the Single-Cell Recognition of Senescent Tumor Cells Based on Kullback-Leibler Divergence
+Version: 0.0.0.9000
+Authors@R: 
+       person("Jiayi", 'Yang', email='yjybio@163.com', role = c("aut", "cre"))
+Description: SRSTCK is a supervised STCs identifier that could accurately identify STCs in cancer single-cell RNA-seq data based on Kullback-Leibler Divergence.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    copykat,
+    Seurat,
+    SeuratObject,
+    readxl
