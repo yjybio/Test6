@@ -28,7 +28,7 @@ SRSTCK <- function (data, cancer, type, cell_type, multi.sample = "FALSE", minGe
                     cell.line = "no", ngene.chr = 5, win.size = 25, KS.cut = 0.15,
                     distance = "euclidean", n.cores = 1)
 { 
-  file_path <- system.file("Result _Data", "Model.xlsx", package = "Test6")
+  file_path <- system.file("Result_Data", "Model.xlsx", package = "Test6")
   Model <- readxl::read_excel(file_path)
   Model <- as.data.frame(Model)
   rownames(Model) <- Model[, 1]
